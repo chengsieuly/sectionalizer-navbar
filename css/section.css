@@ -1,41 +1,27 @@
-// Section Colors
-$section1-bgcolor: #f3d4d4;
-$section2-bgcolor: #9ef3f2;
-
-// Navigation Colors
-$section-bullets-bgcolor: #dff5f4;
-
 section {
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #hello {
-  background-color: $section1-bgcolor;
-}
+  background-color: #f3d4d4; }
 
 #world {
-  background-color: $section2-bgcolor;
-}
-
-// Navigation
+  background-color: #9ef3f2; }
 
 .bullets-container {
   position: fixed;
   right: 0;
   z-index: 9999;
   font-weight: normal;
-  opacity: 0.8;
-}
+  opacity: 0.8; }
 
 .section-bullets {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .section-bullets li {
   display: block;
@@ -43,24 +29,21 @@ section {
   font-size: 13px;
   text-transform: uppercase;
   line-height: 1;
-  margin-bottom: 2px;
-}
+  margin-bottom: 2px; }
 
 .section-bullets li a {
   text-decoration: none;
   color: transparent;
   overflow: hidden;
   display: inline-block;
-  padding: 10px 25px;
-}
+  padding: 10px 25px; }
 
 .section-bullets li a.active {
   color: #000;
-  background-color: $section-bullets-bgcolor;
+  background-color: #dff5f4;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  font-weight: 800;
-}
+  font-weight: 800; }
 
 .section-bullets li:hover a {
   color: #000;
@@ -69,5 +52,4 @@ section {
   background-color: #8D6161;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  visibility: initial;
-}
+  visibility: initial; }
